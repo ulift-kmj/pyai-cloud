@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+
+@layer utilities {
+  .animate-cloud-float {
+    animation-name: cloudFloat;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+  }
+
+  .animate-cloud-rise-initial {
+    animation-name: cloudRiseInitial;
+    animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+  }
+
+  .animate-fade-in {
+    animation-name: fadeIn;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+  }
+}
+
+@keyframes cloudFloat {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes cloudRiseInitial {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
