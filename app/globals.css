@@ -22,6 +22,20 @@
     animation-fill-mode: forwards;
     animation-duration: 1s;
   }
+
+  .animate-cloud-pulse {
+    animation-name: cloudPulse;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+  }
+
+  .animate-cloud-rotate {
+    animation-name: cloudRotate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+  }
 }
 
 @keyframes cloudFloat {
@@ -53,5 +67,29 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes cloudPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes cloudRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }

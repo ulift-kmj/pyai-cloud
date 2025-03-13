@@ -41,7 +41,7 @@ export default function NewProductsPage() {
   const normalizedScrollY = Math.min(scrollY / 20, 100);
 
   return (
-    <div className="flex min-h-screen flex-col w-full bg-[#f8f9fc] relative">
+    <div className="flex min-h-screen flex-col w-full bg-gradient-to-br from-indigo-200 to-purple-300 relative">
       {/* 구름 컴포넌트 - 트랜지션 효과 적용 */}
       <div
         className={`fixed inset-0 z-40 pointer-events-none transition-opacity duration-1000 ${
@@ -108,11 +108,11 @@ export default function NewProductsPage() {
         </div>
       </header>
       <main className="flex-1 w-full">
-        <section className="w-full py-16 md:py-24 lg:py-32 bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50 relative overflow-hidden">
-          <div className="absolute inset-0 opacity-30">
-            <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
-            <div className="absolute top-0 -right-4 w-72 h-72 bg-indigo-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
-            <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+        <section className="w-full py-16 md:py-24 lg:py-32 bg-gradient-to-br from-indigo-200 via-purple-300 to-blue-200 relative overflow-hidden">
+          <div className="absolute inset-0 opacity-40">
+            <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
+            <div className="absolute top-0 -right-4 w-72 h-72 bg-indigo-400 rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
+            <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
           </div>
           <div className="container max-w-full mx-auto px-6 md:px-12 relative z-10">
             <div className="flex flex-col items-center justify-center space-y-6 text-center">
@@ -141,7 +141,7 @@ export default function NewProductsPage() {
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 lg:py-32 bg-white">
+        <section className="w-full py-16 md:py-24 lg:py-32 bg-indigo-200">
           <div className="container max-w-full mx-auto px-2 md:px-4">
             <div className="flex flex-col items-center justify-center space-y-6 text-center">
               <div className="space-y-3">
@@ -153,7 +153,7 @@ export default function NewProductsPage() {
                   사은품을 드립니다.
                 </p>
               </div>
-              <div className="w-full max-w-2xl space-y-4 bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-2xl shadow-xl border border-indigo-100">
+              <div className="w-full max-w-2xl space-y-4 bg-gradient-to-br from-indigo-200 to-purple-300 p-8 rounded-2xl shadow-xl border border-indigo-200">
                 <div className="text-center">
                   <p className="text-2xl font-bold text-indigo-800">
                     이벤트 기간
@@ -163,7 +163,7 @@ export default function NewProductsPage() {
                   </p>
                 </div>
                 <div className="grid grid-cols-3 gap-4 border-t border-indigo-200 pt-6">
-                  <div className="text-center bg-white p-4 rounded-xl shadow-sm">
+                  <div className="text-center bg-indigo-50/80 p-4 rounded-xl shadow-sm">
                     <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-3">
                       <span className="text-indigo-700 font-bold text-lg">
                         1
@@ -176,7 +176,7 @@ export default function NewProductsPage() {
                       전 제품 20% 할인
                     </p>
                   </div>
-                  <div className="text-center bg-white p-4 rounded-xl shadow-sm">
+                  <div className="text-center bg-indigo-50/80 p-4 rounded-xl shadow-sm">
                     <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-3">
                       <span className="text-indigo-700 font-bold text-lg">
                         2
@@ -187,7 +187,7 @@ export default function NewProductsPage() {
                     </p>
                     <p className="text-slate-600 mt-1 text-base">사은품 증정</p>
                   </div>
-                  <div className="text-center bg-white p-4 rounded-xl shadow-sm">
+                  <div className="text-center bg-indigo-50/80 p-4 rounded-xl shadow-sm">
                     <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-3">
                       <span className="text-indigo-700 font-bold text-lg">
                         3
@@ -204,7 +204,7 @@ export default function NewProductsPage() {
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 lg:py-32 bg-gradient-to-b from-white to-indigo-50">
+        <section className="w-full py-16 md:py-24 lg:py-32 bg-gradient-to-b from-indigo-200 to-purple-300">
           <div className="container max-w-full mx-auto px-2 md:px-4">
             <div className="flex flex-col items-center justify-center space-y-6 text-center mb-12">
               <div className="space-y-3">
@@ -220,7 +220,7 @@ export default function NewProductsPage() {
               {products.map((product) => (
                 <Card
                   key={product.id}
-                  className="overflow-hidden flex flex-col w-full h-full bg-white border-0 shadow-lg shadow-indigo-100/40 hover:shadow-xl hover:shadow-indigo-200/50 transition-all duration-200 rounded-xl"
+                  className="overflow-hidden flex flex-col w-full h-full bg-indigo-50/80 border-0 shadow-lg shadow-indigo-100/40 hover:shadow-xl hover:shadow-indigo-200/50 transition-all duration-200 rounded-xl"
                 >
                   <CardHeader className="p-0">
                     <div className="relative h-72 w-full overflow-hidden group">
