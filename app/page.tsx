@@ -348,7 +348,7 @@ const products = [
     price: 129000,
     originalPrice: 150000,
     image:
-      'https://images.unsplash.com/photo-1585771724684-38269d6639fd?q=80&w=2370&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1436473849883-bb3464c23e93?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     rating: 4.5,
     isNew: true,
   },
@@ -370,7 +370,7 @@ const products = [
     price: 79000,
     originalPrice: 95000,
     image:
-      'https://images.unsplash.com/photo-1618478594486-c65b899c4936?q=80&w=2370&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1579609598065-79f8e5bcfb70?q=80&w=1908&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     rating: 4.4,
     isNew: true,
   },
@@ -381,7 +381,7 @@ const products = [
     price: 69000,
     originalPrice: 85000,
     image:
-      'https://images.unsplash.com/photo-1595429035839-c99c298ffdde?q=80&w=2370&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1522844990619-4951c40f7eda?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     rating: 4.3,
     isNew: true,
   },
@@ -392,7 +392,7 @@ const products = [
     price: 89000,
     originalPrice: 110000,
     image:
-      'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?q=80&w=2369&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1631972234521-24e9d4fbb841?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     rating: 4.5,
     isNew: true,
   },
@@ -427,7 +427,7 @@ const products = [
     price: 399000,
     originalPrice: 450000,
     image:
-      'https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?q=80&w=2676&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1603618090561-412154b4bd1b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     rating: 4.7,
     isNew: true,
   },
